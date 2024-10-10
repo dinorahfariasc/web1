@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+        <h2>Formulário</h2>
+        <form method="post" action="#">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            
+            <label>Idade:</label>
+            <input type="radio" id="ate18" name="idade" value="<18">
+            <label for="ate18">18<</label>
+            <input type="radio" id="ate35" name="idade" value="19-35">
+            <label for="ate35">19-35</label>
+            <input type="radio" id="ate48" name="idade" value="36-48">
+            <label for="ate48">36-48</label>
+            <input type="radio" id="mais49" name="idade" value=">49">
+            <label for="mais49">>49</label>
+            <br>
+            
+            <label for="profession">Profissão:</label>
+            <input type="text" id="profession" name="profession" required>
+            <br>
+            
+            <label for="country">País:</label>
+            <select id="country" name="country" required>
+                <option value="brasil">Brasil</option>
+                <option value="eua">EUA</option>
+                <option value="canada">Canadá</option>
+                <option value="uk">Reino Unido</option>
+            </select>
+            <br>
+            
+            <label>Interesses:</label>
+            <input type="checkbox" id="interesse1" name="interests" value="tecnologia">
+            <label for="interesse1">Tecnologia</label>
+            <input type="checkbox" id="interesse2" name="interests" value="esportes">
+            <label for="interesse2">Esportes</label>
+            <input type="checkbox" id="interesse3" name="interests" value="musica">
+            <label for="interesse3">Música</label>
+            <input type="checkbox" id="interesse4" name="interests" value="viagens">
+            <label for="interesse4">Viagens</label>
+            <br>
+            
+            <label for="found">Como você descobriu o site?</label>
+            <textarea id="found" name="found" required></textarea>
+            <br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
