@@ -1,0 +1,37 @@
+Seletores css
+1.	Seletor de Tipo: (p )O seletor de tipo seleciona todos os elementos de um determinado tipo no documento HTML.
+2.	Seletor de Classe: (.minha-classe)Seleciona elementos que têm uma classe específica atribuída. As classes são reutilizáveis e um elemento pode ter várias classes.
+3.	Seletor de ID: (#meu-id)Um ID é único dentro de uma página. O seletor de ID permite estilizar um elemento específico.
+4.	Seletor de Atributo: (input[type="text"]) Os seletores de atributo visam elementos com base em seus atributos e valores de atributos.
+5.	Descendente: (div span) Seleciona elementos que estão aninhados dentro de outros, independentemente do nível de profundidade.
+6.	Seletor Filho Direto: (>) Aponta para elementos que são filhos diretos de outro elemento.
+7.	Seletor Adjacente Direto: (+) Seleciona um elemento que é imediatamente precedido por outro específico.
+8.	Seletor de Irmãos Gerais: (~) Afeta elementos que são irmãos gerais de um elemento especificado, compartilhando o mesmo elemento pai.
+9.	Seletor Universal: (*) O seletor universal é útil para aplicar um estilo a todos os elementos dentro de um contexto específico.
+10.	Seletor de Pseudoclasse: (a::hover) Permite estilizar elementos com base em seu estado ou condição, como :hover ou :focus.
+11.	Seletor de Pseudoelemento: (p::first-letter) Utilizado para estilizar partes específicas de um elemento, como a primeira linha ou a primeira letra.
+
+Ordem:
+1.	Seletor de ID
+2.	Seletor de Atributo
+3.	Seletor de Classe
+4.	Seletor de Pseudoclasse
+5.	Seletor de Tipo
+6.	Seletor de Pseudoelemento
+7.	Seletor Filho Direto
+8.	Seletor Adjacente Direto
+9.	Seletor de Irmãos Gerais
+10.	Seletor Universal
+11.	Descendente
+
+O que é o box model no CSS? Descreva cada uma das suas propriedades.
+O box model define o modo como o conteúdo de um elemento é renderizado e como o espaço é distribuído ao redor dele. O modelo de caixa é composto por quatro áreas principais:
+•	width e height: Definem as dimensões do conteúdo.
+•	padding: Define o espaço interno entre o conteúdo e a borda.
+•	border: Define a borda ao redor do conteúdo e do preenchimento.
+•	margin: Define o espaço externo entre o elemento e outros elementos.
+
+Diferença entre px, pt, em, rem (não a banda).
+px: Unidade fixa, baseada no tamanho de um pixel na tela, sem escala ou adaptação. pt: Unidade de medida tipográfica, usada principalmente para impressão; 1 ponto = 1/72 de polegada. em: Relativo ao tamanho da fonte do elemento pai; pode se acumular em elementos aninhados. rem: Relativo ao tamanho da fonte do elemento raiz (<html>), proporcionando um controle mais consistente e previsível no layout.
+Essencialmente, px é fixo, pt é para impressão, enquanto em e rem são relativos, mas rem oferece mais previsibilidade.
+
