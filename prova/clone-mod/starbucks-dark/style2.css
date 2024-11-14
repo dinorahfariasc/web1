@@ -1,0 +1,107 @@
+* {
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    animation: fadein 2s;
+  }
+  
+  :root {
+    --very-light-brown: #f3f1e7;
+    --white: #ffffff;
+    --black: #000000;
+    --off-white: rgb(231, 231, 231);
+    --starbucks-green: #008248;
+    --light-green: #d4e9e2;
+    --super-light-green: #f1f8f6;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .menu-bar {
+    position: fixed;
+    background-color: var(--light-green);
+    top: 9rem;
+    z-index: 20;
+    width: 100vw;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .menu-bar a {
+    text-decoration: none;
+    color: var(--starbucks-green);
+    margin-left: 1.4rem;
+    transition: all 0.6s;
+  }
+  .menu-bar a:first-child {
+    text-decoration: underline;
+  }
+  
+  .navigation {
+    height: 6rem;
+    background-color: var(--white);
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+  }
+  .nav__img {
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    margin: 1.5rem 2rem;
+  }
+  .nav__link {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--black);
+    transition: all 0.7s;
+  }
+  .nav__link:hover {
+    color: var(--starbucks-green);
+  }
+  .nav__link--sign,
+  .nav__link--join {
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .nav__link--sign {
+    background-color: var(--starbucks-green);
+    color: var(--white);
+  }
+  .nav__link--join {
+    border: 1px solid var(--black);
+    color: var(--white);
+    background-color: var(--black);
+  }
+  
+  .rewards {
+    background-color: #1e3932;
+    width: 100vw;
+    height: 3rem;
+    position: fixed;
+    top: 6rem;
+    color: var(--white);
+    font-weight: 700;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .rewards__join {
+    padding: 0.1rem 1rem;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: #d2a149;
+  }
+  
